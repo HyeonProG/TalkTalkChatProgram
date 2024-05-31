@@ -122,17 +122,4 @@ public class LoginFrame extends JFrame {
 
 	}
 
-//	private void connectToClient() {
-//		name = inputName.getText();
-//		setVisible(false);
-//		new Client(name);
-//		(client = new Client()).setName(name);
-//		client.clickConnectServerBtn(name);
-
-//	}
-
-//	public static void main(String[] args) {
-//		new LoginFrame();
-//	}
-
 }

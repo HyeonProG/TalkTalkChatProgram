@@ -61,10 +61,6 @@ public class Client implements CallBackClientService, ProtocolImpl {
 	public void chatting() {
 		if (name.equals(from)) {
 			mainMessageBox.append("[나] \n" + message + "\n");
-		} else if (from.equals("입장")) {
-			mainMessageBox.append("▶" + from + "◀" + message + "\n");
-		} else if (from.equals("퇴장")) {
-			mainMessageBox.append("▷" + from + "◁" + message + "\n");
 		} else {
 			mainMessageBox.append("[" + from + "] \n" + message + "\n");
 		}
